@@ -11,34 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bae7fee0-d4ac-4cde-911a-e4d9c4676def" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/SymForm.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/HomeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/NotionService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/StaticDumperService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/_base/_header.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/_base/_navigation.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/home/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/home/show.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,6 +187,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="yaml" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -237,7 +214,8 @@
       <option name="presentableId" value="Default" />
       <updated>1636144500508</updated>
       <workItem from="1636144501658" duration="651000" />
-      <workItem from="1636146299309" duration="9414000" />
+      <workItem from="1636146299309" duration="10595000" />
+      <workItem from="1636158552437" duration="1589000" />
     </task>
     <servers />
   </component>
@@ -254,8 +232,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="627" y="317" width="656" height="411" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1636158610904">
+      <screen x="0" y="27" width="1920" height="985" />
+    </state>
+    <state x="627" y="317" width="656" height="411" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.985@0.27.1920.985" timestamp="1636158610904" />
     <state x="1233" y="238" width="374" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1636146926545">
       <screen x="0" y="27" width="1920" height="985" />
     </state>
@@ -276,54 +259,62 @@
       <screen x="0" y="27" width="1920" height="985" />
     </state>
     <state x="1192" y="266" width="424" height="520" key="FileChooserDialogImpl/0.27.1920.985@0.27.1920.985" timestamp="1636153437480" />
-    <state width="724" height="301" key="GridCell.Tab.0.bottom" timestamp="1636149669182">
+    <state width="724" height="301" key="GridCell.Tab.0.bottom" timestamp="1636156987508">
       <screen x="0" y="27" width="1920" height="985" />
     </state>
-    <state width="724" height="301" key="GridCell.Tab.0.bottom/0.27.1920.985@0.27.1920.985" timestamp="1636149669182" />
-    <state width="724" height="301" key="GridCell.Tab.0.center" timestamp="1636149669182">
+    <state width="724" height="301" key="GridCell.Tab.0.bottom/0.27.1920.985@0.27.1920.985" timestamp="1636156987508" />
+    <state width="724" height="301" key="GridCell.Tab.0.center" timestamp="1636156987508">
       <screen x="0" y="27" width="1920" height="985" />
     </state>
-    <state width="724" height="301" key="GridCell.Tab.0.center/0.27.1920.985@0.27.1920.985" timestamp="1636149669182" />
-    <state width="724" height="301" key="GridCell.Tab.0.left" timestamp="1636149669182">
+    <state width="724" height="301" key="GridCell.Tab.0.center/0.27.1920.985@0.27.1920.985" timestamp="1636156987508" />
+    <state width="724" height="301" key="GridCell.Tab.0.left" timestamp="1636156987508">
       <screen x="0" y="27" width="1920" height="985" />
     </state>
-    <state width="724" height="301" key="GridCell.Tab.0.left/0.27.1920.985@0.27.1920.985" timestamp="1636149669182" />
-    <state width="724" height="301" key="GridCell.Tab.0.right" timestamp="1636149669182">
+    <state width="724" height="301" key="GridCell.Tab.0.left/0.27.1920.985@0.27.1920.985" timestamp="1636156987508" />
+    <state width="724" height="301" key="GridCell.Tab.0.right" timestamp="1636156987508">
       <screen x="0" y="27" width="1920" height="985" />
     </state>
-    <state width="724" height="301" key="GridCell.Tab.0.right/0.27.1920.985@0.27.1920.985" timestamp="1636149669182" />
-    <state width="724" height="301" key="GridCell.Tab.1.bottom" timestamp="1636149669182">
+    <state width="724" height="301" key="GridCell.Tab.0.right/0.27.1920.985@0.27.1920.985" timestamp="1636156987508" />
+    <state width="724" height="301" key="GridCell.Tab.1.bottom" timestamp="1636156987509">
       <screen x="0" y="27" width="1920" height="985" />
     </state>
-    <state width="724" height="301" key="GridCell.Tab.1.bottom/0.27.1920.985@0.27.1920.985" timestamp="1636149669182" />
-    <state width="724" height="301" key="GridCell.Tab.1.center" timestamp="1636149669182">
+    <state width="724" height="301" key="GridCell.Tab.1.bottom/0.27.1920.985@0.27.1920.985" timestamp="1636156987509" />
+    <state width="724" height="301" key="GridCell.Tab.1.center" timestamp="1636156987508">
       <screen x="0" y="27" width="1920" height="985" />
     </state>
-    <state width="724" height="301" key="GridCell.Tab.1.center/0.27.1920.985@0.27.1920.985" timestamp="1636149669182" />
-    <state width="724" height="301" key="GridCell.Tab.1.left" timestamp="1636149669182">
+    <state width="724" height="301" key="GridCell.Tab.1.center/0.27.1920.985@0.27.1920.985" timestamp="1636156987508" />
+    <state width="724" height="301" key="GridCell.Tab.1.left" timestamp="1636156987508">
       <screen x="0" y="27" width="1920" height="985" />
     </state>
-    <state width="724" height="301" key="GridCell.Tab.1.left/0.27.1920.985@0.27.1920.985" timestamp="1636149669182" />
-    <state width="724" height="301" key="GridCell.Tab.1.right" timestamp="1636149669182">
+    <state width="724" height="301" key="GridCell.Tab.1.left/0.27.1920.985@0.27.1920.985" timestamp="1636156987508" />
+    <state width="724" height="301" key="GridCell.Tab.1.right" timestamp="1636156987509">
       <screen x="0" y="27" width="1920" height="985" />
     </state>
-    <state width="724" height="301" key="GridCell.Tab.1.right/0.27.1920.985@0.27.1920.985" timestamp="1636149669182" />
-    <state width="724" height="301" key="GridCell.Tab.2.bottom" timestamp="1636149669183">
+    <state width="724" height="301" key="GridCell.Tab.1.right/0.27.1920.985@0.27.1920.985" timestamp="1636156987509" />
+    <state width="724" height="301" key="GridCell.Tab.2.bottom" timestamp="1636156987509">
       <screen x="0" y="27" width="1920" height="985" />
     </state>
-    <state width="724" height="301" key="GridCell.Tab.2.bottom/0.27.1920.985@0.27.1920.985" timestamp="1636149669183" />
-    <state width="724" height="301" key="GridCell.Tab.2.center" timestamp="1636149669183">
+    <state width="724" height="301" key="GridCell.Tab.2.bottom/0.27.1920.985@0.27.1920.985" timestamp="1636156987509" />
+    <state width="724" height="301" key="GridCell.Tab.2.center" timestamp="1636156987509">
       <screen x="0" y="27" width="1920" height="985" />
     </state>
-    <state width="724" height="301" key="GridCell.Tab.2.center/0.27.1920.985@0.27.1920.985" timestamp="1636149669183" />
-    <state width="724" height="301" key="GridCell.Tab.2.left" timestamp="1636149669183">
+    <state width="724" height="301" key="GridCell.Tab.2.center/0.27.1920.985@0.27.1920.985" timestamp="1636156987509" />
+    <state width="724" height="301" key="GridCell.Tab.2.left" timestamp="1636156987509">
       <screen x="0" y="27" width="1920" height="985" />
     </state>
-    <state width="724" height="301" key="GridCell.Tab.2.left/0.27.1920.985@0.27.1920.985" timestamp="1636149669183" />
-    <state width="724" height="301" key="GridCell.Tab.2.right" timestamp="1636149669183">
+    <state width="724" height="301" key="GridCell.Tab.2.left/0.27.1920.985@0.27.1920.985" timestamp="1636156987509" />
+    <state width="724" height="301" key="GridCell.Tab.2.right" timestamp="1636156987509">
       <screen x="0" y="27" width="1920" height="985" />
     </state>
-    <state width="724" height="301" key="GridCell.Tab.2.right/0.27.1920.985@0.27.1920.985" timestamp="1636149669183" />
+    <state width="724" height="301" key="GridCell.Tab.2.right/0.27.1920.985@0.27.1920.985" timestamp="1636156987509" />
+    <state x="182" y="114" width="1536" height="825" key="MergeDialog" timestamp="1636160476930">
+      <screen x="0" y="27" width="1920" height="985" />
+    </state>
+    <state x="182" y="114" width="1536" height="825" key="MergeDialog/0.27.1920.985@0.27.1920.985" timestamp="1636160476930" />
+    <state x="592" y="274" width="726" height="497" key="MultipleFileMergeDialog" timestamp="1636160480105">
+      <screen x="0" y="27" width="1920" height="985" />
+    </state>
+    <state x="592" y="274" width="726" height="497" key="MultipleFileMergeDialog/0.27.1920.985@0.27.1920.985" timestamp="1636160480105" />
     <state x="1164" y="223" width="575" height="600" key="NewPhpClassDialog" timestamp="1636152068564">
       <screen x="0" y="27" width="1920" height="985" />
     </state>
