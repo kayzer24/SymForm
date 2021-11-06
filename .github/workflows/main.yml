@@ -1,0 +1,44 @@
+name: Publish a static version on Github pages
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    env:
+      NOTION_API: ${{ secrets.NOTION_API }}
+      NOTION_DATABASE: ${{ secrets.NOTION_DATABASE }}
+      BASE_URL: ${{ secrets.BASE_URL }}
+      
+    strategy:
+      fail-fast: true
+      matrix:
+        php-versions: ['7.4']
+
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Checkout
+        uses: actions/checkout@v2
+        
+      - name: Setup PHP, extensions and composer with shivammathur/setup-php
+        uses: shivammathur/setup-php@v2
+        with:
+          php-versions: ${{ matrix.php-versions }}
+          extensions: mbstring, xml, ctype, iconv, intl, pdo, pdo_mysql, domn filter, gd, json, mbstring
+        env:
+          update: true
+
+      - name: Composer install
+        run: composer install
+
+      - name: Generate Static Dump
+        run: php bin/console dump-static-site
+        
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./output
